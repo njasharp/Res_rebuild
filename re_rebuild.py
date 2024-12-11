@@ -139,4 +139,4 @@ if st.session_state.rebuilt_resume:
         mime="text/plain"
     )
 
-st.info("Upload your resume file or enter details manually to rebuild it using AI-powered optimization.")
+st.info("build by dw- Upload your resume file or enter details manually to rebuild it using AI-powered optimization.")
