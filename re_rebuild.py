@@ -37,8 +37,8 @@ def get_groq_client() -> Optional[Groq]:
 client = get_groq_client()
 
 # Sidebar - Model Configuration
-st.sidebar.image("icon.png", width=100)
-st.sidebar.image("p2.png")
+st.sidebar.image("icon.PNG", width=100)
+st.sidebar.image("p2.PNG")
 st.sidebar.title("Model Configuration")
 selected_model = st.sidebar.selectbox("Choose an AI Model", list(SUPPORTED_MODELS.keys()))
 
